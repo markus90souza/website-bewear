@@ -1,5 +1,11 @@
+import { Header } from '@/components/shared/header'
+
 const Home = () => {
-  return <div className="flex justify-center text-3xl">Home Page</div>
+  return (
+    <>
+      <Header />
+    </>
+  )
 }
 
 export default Home

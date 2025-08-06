@@ -2,6 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { GalleryVerticalEnd } from 'lucide-react'
 import { SignInForm } from './_components/sign-in-form'
 import { SignUpForm } from './_components/sign-up-form'
+import Image from 'next/image'
 
 const SignInPage = () => {
   return (
@@ -33,7 +34,8 @@ const SignInPage = () => {
         </div>
       </div>
       <div className="bg-muted relative hidden lg:block">
-        <img
+        <Image
+          fill
           src="/placeholder.svg"
           alt="Image"
           className="absolute inset-0 h-full w-full object-cover dark:brightness-[0.2] dark:grayscale"

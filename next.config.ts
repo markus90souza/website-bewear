@@ -1,8 +1,18 @@
 import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  ignoreDuringBuilds: true,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'd4lgxe9bm8juw.cloudfront.net',
+      },
+      {
+        protocol: 'https',
+        hostname: 's3.us-east-1.amazonaws.com',
+      },
+    ],
+  },
 }
 
 export default nextConfig

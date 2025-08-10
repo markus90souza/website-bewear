@@ -3,7 +3,7 @@
 import { useMutation, useQueryClient } from '@tanstack/react-query'
 import { Loader2 } from 'lucide-react'
 
-import { addProductToCart } from '@/actions/products/add-product-to-cart'
+import { addProductToCart } from '@/actions/add-product'
 import { Button } from '@/components/ui/button'
 
 interface AddToCartButtonProps {
@@ -27,7 +27,7 @@ export const AddToCartButton = ({
       queryClient.invalidateQueries({ queryKey: ['cart'] })
     },
   })
-  //const isPending = false // Replace with actual pending state if needed
+
   return (
     <Button
       className="rounded-full"

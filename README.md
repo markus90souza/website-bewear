@@ -70,6 +70,10 @@ Lembre-se de seguir as convenções de código e os padrões de commit do projet
 
 ## Download
 
+## CODE
+
+# SE
+
 Você pode baixar o projeto em formato zip ou tarball clicando nos links abaixo:
 
 - [Download zip](https://github.com/seu-usuario/bewear/archive/master.zip)

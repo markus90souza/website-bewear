@@ -13,6 +13,8 @@ Este é um projeto de e-commerce desenvolvido com Next.js, Tailwind CSS e outras
   - [Funcionalidades](#funcionalidades)
   - [Contribuição](#contribuição)
   - [Download](#download)
+  - [CODE](#code)
+- [SEX](#sex)
   - [Badges](#badges)
 
 ## Introdução
@@ -72,7 +74,7 @@ Lembre-se de seguir as convenções de código e os padrões de commit do projet
 
 ## CODE
 
-# SE
+# SEX
 
 Você pode baixar o projeto em formato zip ou tarball clicando nos links abaixo:
 
